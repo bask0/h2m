@@ -69,8 +69,6 @@ RUN conda config --add channels conda-forge && \
     #jupyter labextension install jupyterlab_tensorboard
 
 # Install private python modlues from gitlab.
-# RUN pip install git+https://oauth2:$ACCESS_TOKEN@git.bgc-jena.mpg.de/bkraft/databucket
-# pip install --upgrade --user git+https://oauth2:biFXfd3-wCjLM1bfVNtn@git.bgc-jena.mpg.de/bkraft/databucket
 RUN pip install git+https://oauth2:$ACCESS_TOKEN@git.bgc-jena.mpg.de/bkraft/geodatautils
 RUN pip install \
     ray==1.0 \
