@@ -15,7 +15,7 @@ We share the code for transparency and to demonstrate the concept of hybrid mode
 
 **We are happy to answer your questions, discuss, and collaborate!**
 
-▶️ bkraft@bgc-jena.mpg.de ◀️
+Contact: bkraft@bgc-jena.mpg.de
 
 ## Structure
 
