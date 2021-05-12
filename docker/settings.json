@@ -1,0 +1,28 @@
+{
+    "files.watcherExclude": {
+        "/.local/": true,
+        "/data/": true,
+        "/logs/": true,
+        "/vscode/": true,
+        "/wandb/": true
+    },
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.fontFamily": "Menlo for Powerline",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.renderControlCharacters": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.colorCustomizations": {
+        "terminal.background": "#000000"
+    }
+}

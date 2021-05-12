@@ -1,0 +1,72 @@
+{
+    "description": "Features and target datasets for hydrological model.",
+    "datasets": {
+        "tair": {
+            "hastime": true,
+            "convolution": false,
+            "istarget": false,
+            "hastimebin": false
+        },
+        "rn": {
+            "hastime": true,
+            "convolution": false,
+            "istarget": false,
+            "hastimebin": false
+        },
+        "prec": {
+            "hastime": true,
+            "convolution": false,
+            "istarget": false,
+            "hastimebin": false
+        },
+        "et": {
+            "hastime": true,
+            "convolution": false,
+            "istarget": true,
+            "hastimebin": true
+        },
+        "tws": {
+            "hastime": true,
+            "convolution": false,
+            "istarget": true,
+            "hastimebin": true
+        },
+        "q": {
+            "hastime": true,
+            "convolution": false,
+            "istarget": true,
+            "hastimebin": true
+        },
+        "swe": {
+            "hastime": true,
+            "convolution": false,
+            "istarget": true,
+            "hastimebin": false
+        },
+        "static": {
+            "hastime": false,
+            "convolution": true,
+            "istarget": false,
+            "hastimebin": false
+        }
+    },
+    "time_slices": {
+        "train": [
+            "2001-01-01",
+            "2008-12-31"
+        ],
+        "valid": [
+            "2008-01-01",
+            "2014-12-31"
+        ],
+        "test":  [
+            "2008-01-01",
+            "2014-12-31"
+        ],
+        "all": [
+            "2001-01-01",
+            "2014-12-31"
+        ]
+    },
+    "warmup": "1Y"
+}
