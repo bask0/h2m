@@ -4,7 +4,7 @@
 
 This repository contains the code for a paper to be published as:
 
-*Kraft B., Jung M., Körner M., Koirala S., and Reichstein M. (2021, under review). Towards hybrid modeling of the global hydrological cycle. Hydrology and Earth System Sciences (HESS)*
+*[Kraft B., Jung M., Körner M., Koirala S., and Reichstein M. (2022). Towards hybrid modeling of the global hydrological cycle. Hydrology and Earth System Sciences (HESS)](https://doi.org/10.5194/hess-26-1579-2022)*
 
 The datasets used cannot be shared but all datasets are referenced in the paper. The simulated variables are available and linked in the paper.
 
@@ -14,8 +14,6 @@ We share the code for transparency and to demonstrate the concept of hybrid mode
 * All data paths need to be adapted to your data infrastructure.
 
 **We are happy to answer your questions, discuss, and collaborate!**
-
-Contact: bkraft@bgc-jena.mpg.de
 
 ## Structure
 
@@ -27,10 +25,15 @@ Contact: bkraft@bgc-jena.mpg.de
 ## Citation
 
 ```tex
-@article{kraft2021towards,
-  title={Towards hybrid modeling of the global hydrological cycle},
-  author={Kraft, Basil and Jung, Martin and K{\"o}rner, Marco and Koirala, Sujan and Reichstein, Markus},
-  journal={Hydrology and Earth System Sciences (HESS)},
-  year={2021, under revision}
+@Article{hess-26-1579-2022,
+  AUTHOR = {Kraft, B. and Jung, M. and K\"orner, M. and Koirala, S. and Reichstein, M.},
+  TITLE = {Towards hybrid modeling of the global hydrological cycle},
+  JOURNAL = {Hydrology and Earth System Sciences},
+  VOLUME = {26},
+  YEAR = {2022},
+  NUMBER = {6},
+  PAGES = {1579--1614},
+  URL = {https://hess.copernicus.org/articles/26/1579/2022/},
+  DOI = {10.5194/hess-26-1579-2022}
 }
 ```
